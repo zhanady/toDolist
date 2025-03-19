@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ibrah\\source\\repos\\toDolist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|c:\\users\\ibrah\\source\\repos\\todolist\\todolist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|solutionrelative:todolist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|c:\\users\\ibrah\\source\\repos\\todolist\\todolist\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|solutionrelative:todolist\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|c:\\users\\ibrah\\source\\repos\\todolist\\todolist\\components\\todocomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|solutionrelative:todolist\\components\\todocomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|c:\\users\\ibrah\\source\\repos\\todolist\\todolist\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|solutionrelative:todolist\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|c:\\users\\ibrah\\source\\repos\\todolist\\todolist\\data\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|solutionrelative:todolist\\data\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "toDolist\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "toDolist\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:32:49.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Services\\TodoService.cs",
+              "RelativeDocumentMoniker": "toDolist\\Services\\TodoService.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Services\\TodoService.cs",
+              "RelativeToolTip": "toDolist\\Services\\TodoService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:33:14.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Components\\TodoComponent.razor.cs",
+              "RelativeDocumentMoniker": "toDolist\\Components\\TodoComponent.razor.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Components\\TodoComponent.razor.cs",
+              "RelativeToolTip": "toDolist\\Components\\TodoComponent.razor.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:33:46.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITodoService.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Services\\ITodoService.cs",
+              "RelativeDocumentMoniker": "toDolist\\Services\\ITodoService.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Services\\ITodoService.cs",
+              "RelativeToolTip": "toDolist\\Services\\ITodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:33:08.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Data\\TodoItem.cs",
+              "RelativeDocumentMoniker": "toDolist\\Data\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Data\\TodoItem.cs",
+              "RelativeToolTip": "toDolist\\Data\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T00:32:28.755Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
