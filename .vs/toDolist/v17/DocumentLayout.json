@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ibrah\\source\\repos\\toDolist\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|c:\\users\\ibrah\\source\\repos\\todolist\\todolist\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|solutionrelative:todolist\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|c:\\users\\ibrah\\source\\repos\\todolist\\todolist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F52A392-8214-4FA7-A881-8A3E587B4FBB}|toDolist\\toDolist.csproj|solutionrelative:todolist\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,6 +79,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "toDolist\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "toDolist\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwGEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T03:08:54.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "toDolist\\Data\\ApplicationDbContext.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TodoService.cs",
               "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Services\\TodoService.cs",
               "RelativeDocumentMoniker": "toDolist\\Services\\TodoService.cs",
@@ -95,12 +112,11 @@
               "RelativeToolTip": "toDolist\\Services\\TodoService.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAcwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:33:14.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T00:33:14.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TodoComponent.razor.cs",
               "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Components\\TodoComponent.razor.cs",
               "RelativeDocumentMoniker": "toDolist\\Components\\TodoComponent.razor.cs",
@@ -108,12 +124,11 @@
               "RelativeToolTip": "toDolist\\Components\\TodoComponent.razor.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAiwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:33:46.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T00:33:46.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ITodoService.cs",
               "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Services\\ITodoService.cs",
               "RelativeDocumentMoniker": "toDolist\\Services\\ITodoService.cs",
@@ -121,12 +136,11 @@
               "RelativeToolTip": "toDolist\\Services\\ITodoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:33:08.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T00:33:08.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TodoItem.cs",
               "DocumentMoniker": "C:\\Users\\ibrah\\source\\repos\\toDolist\\toDolist\\Data\\TodoItem.cs",
               "RelativeDocumentMoniker": "toDolist\\Data\\TodoItem.cs",
@@ -134,8 +148,7 @@
               "RelativeToolTip": "toDolist\\Data\\TodoItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T00:32:28.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T00:32:28.755Z"
             }
           ]
         }

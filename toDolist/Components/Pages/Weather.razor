@@ -1,35 +1,50 @@
 ﻿@page "/weather"
 @attribute [StreamRendering]
 
-<PageTitle>Weather</PageTitle>
+<PageTitle>To-Do List</PageTitle>
 
-<h1>Weather</h1>
+<h1>To-Do List</h1>
 
-<p>This component demonstrates showing data.</p>
+<p>Gerencie suas tarefas diárias de forma interativa.</p>
 
-@if (forecasts == null)
+<div>
+    <input @bind="newTaskDescription" placeholder="Nova tarefa" class="form-control" />
+    <select @bind="newTaskPriority" class="form-control">
+        <option value="Baixa">Baixa</option>
+        <option value="Média">Média</option>
+        <option value="Alta">Alta</option>
+    </select>
+    <button @onclick="AddTask" class="btn btn-primary">Adicionar</button>
+</div>
+
+@if (tasks == null || !tasks.Any())
 {
-    <p><em>Loading...</em></p>
+    <p><em>Nenhuma tarefa adicionada.</em></p>
 }
 else
 {
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Data</th>
+                <th>Tarefa</th>
+                <th>Prioridade</th>
+                <th>Status</th>
+                <th>Ações</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var task in tasks)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@task.Date.ToShortDateString()</td>
+                    <td>@task.Description</td>
+                    <td>@task.Priority</td>
+                    <td>@(task.Completed ? "Concluído" : "Pendente")</td>
+                    <td>
+                        <button @onclick="() => ToggleTaskStatus(task)" class="btn btn-success">@(task.Completed ? "Reabrir" : "Concluir")</button>
+                        <button @onclick="() => RemoveTask(task)" class="btn btn-danger">Remover</button>
+                    </td>
                 </tr>
             }
         </tbody>
@@ -37,28 +52,51 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private List<TaskItem> tasks = new();
+    private string newTaskDescription = string.Empty;
+    private string newTaskPriority = "Média";
 
-    protected override async Task OnInitializedAsync()
+    private void AddTask()
     {
-        // Simulate asynchronous loading to demonstrate streaming rendering
-        await Task.Delay(500);
-
-        var startDate = DateOnly.FromDateTime(DateTime.Now);
-        var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        Console.WriteLine("Botão Adicionar pressionado");
+        if (!string.IsNullOrWhiteSpace(newTaskDescription))
         {
-            Date = startDate.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = summaries[Random.Shared.Next(summaries.Length)]
-        }).ToArray();
+            tasks.Add(new TaskItem
+                {
+                    Date = DateOnly.FromDateTime(DateTime.Now),
+                    Description = newTaskDescription,
+                    Priority = newTaskPriority,
+                    Completed = false
+                });
+            newTaskDescription = string.Empty;
+            StateHasChanged(); // Força a atualização da UI
+            Console.WriteLine("Tarefa adicionada: " + newTaskDescription);
+        }
+        else
+        {
+            Console.WriteLine("Descrição vazia, tarefa não adicionada.");
+        }
     }
 
-    private class WeatherForecast
+    private void ToggleTaskStatus(TaskItem task)
+    {
+        task.Completed = !task.Completed;
+        StateHasChanged(); // Atualiza a UI
+        Console.WriteLine("Tarefa alterada: " + task.Description + " - Status: " + (task.Completed ? "Concluído" : "Pendente"));
+    }
+
+    private void RemoveTask(TaskItem task)
+    {
+        tasks.Remove(task);
+        StateHasChanged(); // Atualiza a UI
+        Console.WriteLine("Tarefa removida: " + task.Description);
+    }
+
+    private class TaskItem
     {
         public DateOnly Date { get; set; }
-        public int TemperatureC { get; set; }
-        public string? Summary { get; set; }
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+        public string? Description { get; set; }
+        public string Priority { get; set; } = "Média";
+        public bool Completed { get; set; }
     }
 }
